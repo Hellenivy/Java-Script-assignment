@@ -1,0 +1,74 @@
+<html><head></head> 
+ <body> 
+  <div class="row"> 
+   <div class="col-75"> 
+    <div class="container"> 
+     <form action="/action_page.php"> 
+      <div class="row"> 
+       <div class="col-50"> 
+        <h3>Address Of The Building</h3> 
+        <label for="fname"><i class="fa fa-user"></i> Full Name</label> 
+        <input type="text" id="fname" name="firstname" placeholder="Sashan Armani"> 
+        <label for="email"><i class="fa fa-envelope"></i> Email</label> 
+        <input type="text" id="email" name="email" placeholder="sashanarmani@gmail.com"> 
+        <label for="adr"><i class="fa fa-address-card-o"></i> Address</label> 
+        <input type="text" id="adr" name="address" placeholder="378 Ashton Courts"> 
+        <label for="city"><i class="fa fa-institution"></i> City</label> 
+        <input type="text" id="city" name="city" placeholder="Nairobi"> 
+        <div class="row"> 
+         <div class="col-50"> 
+          <label for="area">Area</label> 
+          <input type="text" id="area" name="area" placeholder="Lavington"> 
+         </div> 
+         <div class="col-50"> 
+          <label for="zip">Code</label> 
+          <input type="text" id="code" name="code" placeholder="20582"> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="col-50"> 
+        <h3>Payment</h3> 
+        <label for="fname">Accepted Cards</label> 
+        <div class="icon-container"> 
+         <i class="fa fa-cc-visa" style="color:navy;"></i> 
+         <i class="fa fa-cc-paypal" style="color:blue;"></i> 
+         <i class="fa fa-cc-mastercard" style="color:red;"></i> 
+         <i class="fa fa-cc-discover" style="color:orange;"></i> 
+        </div> 
+        <label for="cname">Name on Card</label> 
+        <input type="text" id="cname" name="cardname" placeholder="Sasham Armani"> 
+        <label for="cnum">Credit card number</label> 
+        <input type="text" id="cnum" name="cardnumber" placeholder="0987-5678-8888-3264"> 
+        <label for="expirypmonth">Exp Month</label> 
+        <input type="text" id="expirymonth" name="expirymonth" placeholder="August"> 
+        <div class="row"> 
+         <div class="col-50"> 
+          <label for="expiryyear">Exp Year</label> 
+          <input type="text" id="expiryyear" name="expiryyear" placeholder="2014"> 
+         </div> 
+         <div class="col-50"> 
+          <label for="cvv">CVV</label> 
+          <input type="text" id="cvv" name="cvv" placeholder="5277"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <label> <input type="checkbox" checked="" name="same address"> Delivery address same as address of the building </label> 
+      <input type="submit" value="Continue to checkout" class="btn"> 
+     </form> 
+    </div> 
+   </div> 
+   <div class="col-25"> 
+    <div class="container"> 
+     <h4>Cart <span class="price" style="color:black"> <i class="fa fa-shopping-cart"></i> <b>4</b> </span> </h4> 
+     <p><a href="#">Product 4</a> <span class="price">Ksh.259</span></p> 
+     <p><a href="#">Product 5</a> <span class="price">Ksh.500</span></p> 
+     <p><a href="#">Product 6</a> <span class="price">Ksh.117</span></p> 
+     <p><a href="#">Product 7</a> <span class="price">Ksh.325</span></p> 
+     <hr> 
+     <p>Total <span class="price" style="color:black"><b>Ksh.1201</b></span></p> 
+    </div> 
+   </div> 
+  </div> 
+ 
+</body></html>
